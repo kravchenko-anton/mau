@@ -1,0 +1,110 @@
+[
+	{
+		"description": "Literary festival – meetings with authors of contemporary Polish prose. Guests include Serhij Żadan, Karolina Krasny, Weronika Murek, Paweł Sołtys. Debates on writing craft, awards ceremony.",
+		"id": 1
+	},
+	{
+		"description": "Annual Night of Museums – Poznań originated this tradition in Poland in 2003. Museums, galleries, universities, archives open from 19:00 to ~02:00. Extra night bus/tram lines (0 and H).",
+		"id": 2
+	},
+	{
+		"description": "Biggest student festival in the region. Two stages, Forum Juwe, food zone. Lineup: Jan-rapowanie, Kosma, Natura 2000 (Thu) / Golec uOrkiestra, Grubson, Zalia (Fri) / White 2115, Hubert., Kacperczyk (Sat).",
+		"id": 3
+	},
+	{
+		"description": "16th edition. Artistic director: Leszek Możdżer. Lineup: Stanley Clarke 'N'4ever', Julian Lage & Gyan Riley Play Zorn, New Masada Quartet (John Zorn), Sullivan Fortner, Kinga Głyk, Andres Barrios Quartet, Kacper Smoliński, Piano Operatio.",
+		"id": 4
+	},
+	{
+		"description": "Three weeks of debates, films, art, talks. Culmination: XXII Equality March on 20 June. Organized by Grupa Stonewall since 2015.",
+		"id": 5
+	},
+	{
+		"description": "Open-air ukulele festival – mass jam sessions, workshops, family-friendly. Free.",
+		"id": 6
+	},
+	{
+		"description": "19th edition. Four days, three stages, music from Karpaty/Balkans/Iberian Peninsula/Caucasus/Anatolia/South Africa/Latin America. Workshops, debates 'Wsłuchaj się w świat', 'Małe Ethno' for kids. Artists: Kimmo Pohjonen + Amadeus Chamber Orchestra, Sw@da & Niczos, Thanda Choir, Stringed Compass, Vigüela, Kujawski Ansambl.",
+		"id": 7
+	},
+	{
+		"description": "Largest fantasy/pop-culture festival in Central-Eastern Europe. 2400+ programme points: panels, author meetings, anime/manga, RPG, gaming, cosplay, concerts. 2026 guests announced: Maggie Stiefvater, Twilight Force, Dominic McDowall (Cubicle 7), Andrew Wincott. 2026 attendance capped due to demand.",
+		"id": 8
+	},
+	{
+		"description": "36th edition. Theme: 'Za Miłość!' Opening: open-air concert at Lake Malta (21.06). Theatre: La Mort de la Mer (CocoRosie + Justyna Wasilewska, 22–23.06), The Distance (Tiago Rodrigues), The Second Woman 24h (Anna Breckon, Nat Randall, Magdalena Cielecka), This Resting Patience (Ewa Dziarnowska). Music (25–28.06, MTP): MARO + Devendra Banhart + Benjamin Clementine / HAAi + The Blessed Madonna + The Blaze / Efterklang + Charlie Cunningham + Beirut / King No-One + Kacperczyk + Two Door Cinema Club.",
+		"id": 9
+	},
+	{
+		"description": "Major temporary exhibition curated by Sylwia Szykowna and Aleksandra Kosior. Critically analyzes cultural, social, political consequences of AI – not AI-generated art, but the material infrastructure and human labor behind algorithms. Includes installations, video, data visualizations, 'time capsules' linking archival sources with new works. Rich accompanying programme: artist talks, curatorial tours, workshops.",
+		"id": 11
+	},
+	{
+		"description": "Free pop/Polish-music festival. Lineup includes Dawid Kwiatkowski, Livka, Mery Spolsky, Roxie Węgiel, Oskar Cyms, Po Prostu Kajtek.",
+		"id": 14
+	},
+	{
+		"description": "2nd edition. Four stages, 40+ artists. Headliners: Gorillaz (Thu), Twenty One Pilots (Fri), Robbie Williams (Sat). Also: Lorde, Major Lazer, Tom Odell, Rita Ora, Alok, Faithless, Parcels, Ashnikko, Becky Hill, Jessie J, Chet Faker, Charlotte Cardin, Paul Kalkbrenner, MEUTE, Ciara, Morad, Fukaj, Oki, Sobel, Mrozu. Includes BitterSweet Talks (mental health, safety on festivals).",
+		"id": 15
+	},
+	{
+		"description": "Reborn after pause. Most important Polish showcase festival – debuts + established artists, plus industry conference. 20+ events across two months in venues citywide. Tickets purchased earlier for April edition remain valid.",
+		"id": 16
+	},
+	{
+		"description": "29th edition (estimated date – traditionally second half of October). ~50 feature-length docs in 8 thematic sections. Eco Doc, mountain films, classics of documentary, special screenings in non-cinema spaces (Collegium Anatomicum, Academy of Music).",
+		"id": 17
+	},
+	{
+		"description": "Largest gaming/multimedia fair in Central-Eastern Europe. Jubilee 20th edition. 50,000+ m² exhibition space, 300+ brands, gaming stations, e-sports tournaments, VR/AR zones, cosplay, retro gaming, meet-and-greets with streamers/YouTubers/TikTokers. Parallel: GIC 2026 (game industry conference, 21–24.10).",
+		"id": 18
+	},
+	{
+		"description": "Poznań's signature city celebration – combined with Polish Independence Day. Parade led by St. Martin on horseback, ceremonial handover of city keys, certified rogal świętomarciński fair (St. Martin's croissant), regional food (gęsina), children's animations, concerts on Plac Mickiewicza. Theme: 'Czyń dobro' (Do good). 32nd edition.",
+		"id": 19
+	},
+	{
+		"description": "Symphonic, chamber, choral concerts throughout the season. Regular Friday/Saturday philharmonic concerts.",
+		"id": 23
+	},
+	{
+		"description": "Student-doctoral conference gathering the most interesting diploma theses on Jewish themes from students across Poland. Organized by Koło Naukowe Hebraistów UAM with Wydział Etnolingwistyki UAM.",
+		"id": 29
+	},
+	{
+		"description": "Cyclical European conference gathering researchers in physics, chemistry, and materials engineering with focus on magnetism and magnetic materials. Long-running event in the field.",
+		"id": 30
+	},
+	{
+		"description": "Prestigious international conference organized by Wydział Teologiczny UAM and Society for the Study of Emerging Adulthood (SSEA). Interdisciplinary space on emerging adulthood (ages ~18–29). Keynotes: Jeffrey Jensen Arnett and Lene Arnett Jensen (Clark University, USA).",
+		"id": 31
+	},
+	{
+		"description": "18th edition of the largest international conference on Japanese studies. EAJS is the world's biggest organization gathering specialists from various humanities and social-science disciplines focused on Japan. Hosted in Poznań by UAM's Japanese Studies Department.",
+		"id": 32
+	},
+	{
+		"description": "14th edition of international conference on third language acquisition and multilingualism. Co-organized by Wydział Anglistyki and Wydział Neofilologii UAM. Affiliated with the International Association of Multilingualism.",
+		"id": 33
+	},
+	{
+		"description": "Exclusive evening with Johann Strauss II's 'The Blue Danube' performed by Poznań Philharmonic Orchestra, conducted by Karolina Lewińska-Bąk. Hosted by AMU Welcome Centre for international students and broader audience. 19:00 start.",
+		"id": 34
+	},
+	{
+		"description": "Online graduate student conference within the ValEUs network. Topic: youth, politics, and the public sphere. Open to MA and PhD students within and beyond the ValEUs network – diverse regional perspectives welcomed.",
+		"id": 35
+	},
+	{
+		"description": "Final 'Discover Poland with Us' trip of the semester organized by AMU Welcome Centre for international students. Activities include kayaking on the Krutynia River, Śniardwy lake cruise, film workshops, Malbork Castle visit, bonfire with silent disco. 45 spots – first come, first served.",
+		"id": 36
+	},
+	{
+		"description": "International conference co-organized by Council for Research in Values and Philosophy (Washington D.C.), AMU Department of Political Philosophy and Social Communication (Wydział Filozoficzny UAM), and Wrocław University of Science and Technology (Department of Science, Technology and Society Studies). Focus: contemporary societies undergoing transformation due to digital technologies.",
+		"id": 37
+	},
+	{
+		"description": "World Congress of the International Union of Prehistoric and Protohistoric Sciences (UISPP) — the largest global conference in prehistoric and protohistoric archaeology, held every 4–5 years. Hosted in 2026 by AMU Faculty of Archaeology. Hundreds of sessions across nearly a month. Registration via www.uispp2026.syskonf.pl.",
+		"id": 38
+	}
+]
