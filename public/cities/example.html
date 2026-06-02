@@ -1,0 +1,705 @@
+<div id="container" class="event-detail ">
+	<div id="content" class="fc-black-light">
+		
+		<div class="working-btn">
+			<a href="/en/events/" class="button-back fl tabletOff fs-small"> &lt;&lt; Go to event list </a>
+		</div>
+		
+		
+		
+		<input type="hidden" id="hidden-eventid" value="89203">
+		<!--<a href="#" class="button right gray">Zainteresowany </a>-->
+		<!--<a href="#" class="button right ">Wezmę udział</a>-->
+		<div class="clear"></div>
+		
+		<h1 class="h1-detail">XV Poznańska Impreza Wolnego Oprogramowania 2026</h1>
+		
+		<div class="socialmedia">
+			<div class="socialmedia-part">
+				
+				<div class="google-calendar socialmedia-box">
+					<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=XV Poznańska Impreza Wolnego Oprogramowania 2026&amp;dates=20260530T070000Z/20260530T100000Z&amp;sprop=website:https://crossweb.pl/en/events/xv-poznanska-impreza-wolnego-oprogramowania-2026/&amp;location=Wydział Matematyki i Informatyki  Uniwersytet im. Adama Mickiewicza&amp;details=&lt;p&gt;Poznańska Impreza Wolnego Oprogramowania (P.I.W.O.) to otwarta, darmowa konferencja organizowana w Poznaniu, której głównym celem jest upowszechnianie idei wolnego i otwartego oprogramowa..., więcej informacji: https://crossweb.pl/en/events/xv-poznanska-impreza-wolnego-oprogramowania-2026/" target="_blanc" onclick="_gaq.push(['_trackEvent', 'link zewnętrzny', 'Google Calendar', 'XV Poznańska Impreza Wolnego Oprogramowania 2026']);">
+						<img src="/assets/page/img/gc-logo.png">
+					</a>
+				</div>
+				
+				<div class="special patronat fw-bold fs-small">Media partner</div>
+			</div>
+		</div>
+		
+		<img src="/upload/gallery/event/89203/xv-poznanska-impreza-wolnego-oprogramowania-2026-1776181489.png" class="event-image" alt="xv-poznanska-impreza-wolnego-oprogramowania-2026">
+		
+		<div id="event-detail" class="event-detail" itemscope="" itemtype="https://schema.org/Event">
+			<div class="event-label">
+				Event:
+			</div>
+			<div class="event-var fw-bold" itemprop="name">XV Poznańska Impreza Wolnego Oprogramowania 2026</div>
+			<div class="event-label">Event type:</div>
+			<div class="event-var fw-bold">
+				Meetup        </div>
+			<div class="event-label">Category:</div>
+			<div class="event-var fw-bold">
+				<a href="/en/events/it/">IT</a>
+			</div>
+			<div class="event-label">Topic:</div>
+			<div class="event-var fw-bold">
+				<a href="/en/events/programowanie/">programming</a>
+				,                 <a href="/en/events/callforpapers/">Call For Papers</a>
+			</div>
+			<div class="event-label">Date:</div>
+			<div class="event-var fw-bold">
+				30.05.2026  (saturday)
+			</div>
+			
+			<div class="event-label">Time:</div>
+			<div class="event-var fw-bold">
+				09:00        </div>
+			<div class="event-label">Language:</div>
+			<div class="event-var fw-bold">
+				Polish                                                                                                                                                                                                                    </div>
+			<div class="event-label">Price:</div>
+			<div class="event-var fw-bold">
+				Free                                                                                                                    </div>
+			<div class="event-label">City:</div>
+			<div class="event-var  fw-bold">
+				<a href="/en/events/poznan/">Poznan</a>                                </div>
+			<div itemprop="location" itemscope="" itemtype="https://schema.org/Place">
+				<div class="event-label">Place: </div>
+				<div class="event-var fw-bold" itemprop="name">
+					Wydział Matematyki i Informatyki  Uniwersytet im. Adama Mickiewicza            </div>
+				<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+					<div class="event-label">Address:</div>
+					<div class="event-var fw-bold">
+						<a href="https://www.google.com/maps/search/?api=1&amp;query=Wydzia%C5%82%20Matematyki%20i%20Informatyki%20%20Uniwersytet%20im.%20Adama%20Mickiewicza%2C%20Uniwersytetu%20Pozna%C5%84skiego%204%2C%2066" class="eventDetailLink fc-blue" itemprop="streetAddress" target="_blank" rel="nofollow noopener noreferrer" title="Open in Google Maps">Uniwersytetu Poznańskiego 4</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="event-label">Strona www:</div>
+			<div class="event-var fw-bold">
+				<a href="https://piwo.sh" class="eventDetailLink apply-link-js" target="_blank">
+					https://piwo.sh
+				</a>
+			</div>
+			
+			
+			
+			
+			<style>
+				/* Sticky bar - pasek zapisów na dole ekranu (węższy, wyśrodkowany) */
+				.sticky-bar {
+					position: fixed;
+					bottom: 12px;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 90%;
+					max-width: 1200px;
+					background-color: #E1EDF4;
+					padding: 15px 20px;
+					z-index: 1000;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+					border-radius: 8px;
+				}
+				
+				.sticky-bar-container {
+					width: 100%;
+				}
+				
+				/* Rozmycie w odstępie pod paskiem (między paskiem a dolną krawędzią okna) */
+				.sticky-bar-blur {
+					position: fixed;
+					bottom: 0;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 90%;
+					max-width: 1200px;
+					height: 12px;
+					z-index: 999;
+					backdrop-filter: blur(8px);
+					-webkit-backdrop-filter: blur(8px);
+					background: rgba(255, 255, 255, 0.15);
+					border-radius: 0 0 8px 8px;
+					pointer-events: none;
+				}
+				
+				/* Górny rząd - tytuł, informacje i przycisk po prawej */
+				.top-row {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+					gap: 20px;
+				}
+				
+				.sticky-bar-actions {
+					margin-left: 48px;
+					flex-shrink: 0;
+					display: flex;
+					align-items: center;
+					gap: 15px;
+				}
+				
+				.registration-title {
+					font-weight: bold;
+					color: #333;
+					font-size: 18px;
+					min-width: 150px;
+					flex-shrink: 0;
+					line-height: 1.4;
+				}
+				
+				.registration-info {
+					display: flex;
+					flex-direction: column;
+					gap: 6px;
+					color: #555;
+					font-size: 14px;
+					line-height: 1.5;
+				}
+				
+				.registration-info > div {
+					display: block;
+				}
+				
+				/* Dolny rząd - przyciski i cena */
+				.bottom-row {
+					display: flex;
+					align-items: center;
+					gap: 15px;
+					flex-wrap: wrap;
+				}
+				
+				.price {
+					color: #333;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 1.4;
+				}
+				
+				/* Przyciski akcji */
+				.action-button {
+					background-color: #0077c2;
+					color: white;
+					border: none;
+					padding: 10px 24px;
+					border-radius: 4px;
+					font-size: 16px;
+					font-weight: 600;
+					cursor: pointer;
+					transition: all 0.3s ease;
+					text-decoration: none;
+					display: inline-block;
+					line-height: 1.4;
+				}
+				
+				.action-button:hover {
+					background-color: #005fa3;
+					color: white;
+					text-decoration: none;
+					transform: translateY(-1px);
+					box-shadow: 0 2px 8px rgba(0, 119, 194, 0.3);
+				}
+				
+				.cancel-button {
+					background-color: #f5f5f5;
+					color: #333;
+					text-decoration: none;
+					padding: 10px 24px;
+					border-radius: 4px;
+					font-weight: 600;
+					border: 1px solid #ddd;
+					transition: all 0.3s ease;
+					cursor: pointer;
+					font-size: 16px;
+					display: inline-block;
+					line-height: 1.4;
+				}
+				
+				.cancel-button:hover {
+					background-color: #e0e0e0;
+					color: #333;
+					text-decoration: none;
+					border-color: #bbb;
+				}
+				
+				/* Stan disabled przycisku rezygnacji - po kliknieciu, blokada przed double-submit */
+				.cancel-button[disabled],
+				.cancel-button.is-loading {
+					opacity: 0.65;
+					cursor: not-allowed;
+					pointer-events: none;
+				}
+				
+				/* Spinner przy rezygnacji */
+				.cancel-button .spinner {
+					display: inline-block;
+					width: 12px;
+					height: 12px;
+					margin-right: 6px;
+					border: 2px solid rgba(0, 0, 0, 0.2);
+					border-top-color: #333;
+					border-radius: 50%;
+					vertical-align: middle;
+					animation: cancel-spin 0.8s linear infinite;
+				}
+				
+				@keyframes cancel-spin {
+					to { transform: rotate(360deg); }
+				}
+				
+				/* Różne typy informacji */
+				.status-info {
+					color: #333;
+					font-size: 14px;
+					line-height: 1.5;
+				}
+				
+				.waitlist-info {
+					color: #555;
+					font-size: 14px;
+					line-height: 1.5;
+				}
+				
+				.no-places-info {
+					color: #d32f2f;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.5;
+				}
+				
+				.future-registration-info {
+					color: #555;
+					font-size: 14px;
+					line-height: 1.5;
+				}
+				
+				/* Responsywność - mobile */
+				@media (max-width: 768px) {
+					.sticky-bar {
+						width: calc(100% - 24px);
+						max-width: none;
+						padding: 14px 16px;
+						bottom: 10px;
+						box-sizing: border-box;
+					}
+					
+					.sticky-bar-blur {
+						width: calc(100% - 24px);
+						max-width: none;
+					}
+					
+					.sticky-bar-container {
+						box-sizing: border-box;
+					}
+					
+					.top-row {
+						flex-direction: column;
+						align-items: stretch;
+						gap: 10px;
+					}
+					
+					.registration-title {
+						min-width: 0;
+						width: 100%;
+						font-size: 16px;
+					}
+					
+					.registration-info {
+						width: 100%;
+						max-width: 100%;
+						gap: 6px;
+						font-size: 14px;
+						line-height: 1.45;
+					}
+					
+					.registration-info > div {
+						width: 100%;
+						word-wrap: break-word;
+						overflow-wrap: break-word;
+					}
+					
+					.sticky-bar-actions {
+						margin-left: 0;
+						margin-top: 0;
+						width: 100%;
+						max-width: 100%;
+						flex-direction: column;
+						align-items: flex-start;
+						gap: 10px;
+					}
+					
+					.bottom-row {
+						flex-direction: column;
+						align-items: stretch;
+						margin-top: 8px;
+						gap: 10px;
+						width: 100%;
+					}
+					
+					.price {
+						font-size: 14px;
+						width: 100%;
+					}
+					
+					.action-button,
+					.cancel-button {
+						width: auto;
+						min-width: 0;
+						max-width: 100%;
+						align-self: flex-start;
+						text-align: center;
+						padding: 8px 20px;
+						font-size: 14px;
+					}
+				}
+			
+			</style>
+			
+			<div class="clear"></div>
+			
+			<time itemprop="startDate" datetime="2026-05-30"></time>
+		
+		</div>
+		
+		<div class="event-detail">
+			<div class="event-label">Speakers:</div>
+			<div class="event-speakers">
+				<div class="speaker-box ">
+					<a href="/en/profile/mateusz-reszka/131075/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/mateusz-reszka/131075/">Mateusz Reszka</a>
+					</div>
+				</div>
+				<div class="speaker-box ">
+					<a href="/en/profile/tomasz-zielinski/14832/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/tomasz-zielinski/14832/">Tomasz Zieliński </a>
+					</div>
+				</div>
+				<div class="speaker-box ">
+					<a href="/en/profile/jakub-orlik/105609/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/jakub-orlik/105609/">Jakub Orlik </a>
+					</div>
+				</div>
+				<div class="speaker-box ">
+					<a href="/en/profile/piotr-gaczkowski/67652/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/piotr-gaczkowski/67652/">Piotr Gaczkowski </a>
+					</div>
+				</div>
+				<div class="speaker-box ">
+					<a href="/en/profile/artur-frenszek-iwicki/117921/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/artur-frenszek-iwicki/117921/">Artur Frenszek-Iwicki </a>
+					</div>
+				</div>
+				<div class="speaker-box ">
+					<a href="/en/profile/bartosz-slawecki/121320/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/bartosz-slawecki/121320/">Bartosz Sławecki </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/adam-piaseczny/117314/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/adam-piaseczny/117314/">Adam Piaseczny </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/damian-fajfer/37858/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/damian-fajfer/37858/">Damian Fajfer </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/mateusz-konat/126473/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/mateusz-konat/126473/">Mateusz Konat </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/stefan-machura/114696/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/stefan-machura/114696/">Stefan Machura </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/jakub-dakowski/126927/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/jakub-dakowski/126927/">Jakub Dakowski </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/jan-konczak/30685/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/jan-konczak/30685/">Jan Kończak </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/krzysztof-siewicz/127195/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/krzysztof-siewicz/127195/">Krzysztof Siewicz </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/tomasz-lawicki/127193/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/tomasz-lawicki/127193/">Tomasz Ławicki </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/zbigniew-jedrzejewski-szmek/118999/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/zbigniew-jedrzejewski-szmek/118999/">Zbigniew Jędrzejewski-Szmek </a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/adam-lis/132609/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/adam-lis/132609/">Adam Lis</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/adrian-przekwas/132619/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/adrian-przekwas/132619/">Adrian Przekwas</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/aria-wegrzyn/132614/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/aria-wegrzyn/132614/">Aria Węgrzyn</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/artur-weber/132616/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/artur-weber/132616/">Artur Weber</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/bartosz-piontek/132617/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/bartosz-piontek/132617/">Bartosz Piontek</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/blazej-swiecicki/132608/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/blazej-swiecicki/132608/">Błażej Święcicki</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/dawid-pietrykowski/132610/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/dawid-pietrykowski/132610/">Dawid Pietrykowski</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/karol-szafranski/132606/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/karol-szafranski/132606/">Karol Szafrański</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/krzysztof-strug/132607/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/krzysztof-strug/132607/">Krzysztof Strug</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/luna-michalak/132611/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/luna-michalak/132611/">Luna Michalak</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/milosz-kucharski/132615/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/milosz-kucharski/132615/">Miłosz Kucharski</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/oliwier-jaszczyszyn/132612/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/oliwier-jaszczyszyn/132612/">Oliwier Jaszczyszyn</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/patryk-czachurski/132613/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/patryk-czachurski/132613/">Patryk Czachurski</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/piotr-litewka/132618/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/piotr-litewka/132618/">Piotr Litewka</a>
+					</div>
+				</div>
+				<div class="speaker-box noactive">
+					<a href="/en/profile/zef-hemel/132620/">
+						<img src="/assets/page/img/avatar.png" alt="">
+					</a>
+					<div class="speaker-name fw-regular">
+						<a href="/en/profile/zef-hemel/132620/">Zef Hemel</a>
+					</div>
+				</div>
+				<div class="ff"></div>
+				<a href="javascript:void(0)" id="btn-showalleventspeakers" class="fr" onclick="this.style.display = 'none';">Show all speakers (30)</a>
+			
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="event-detail description">
+			<div class="event-label">Description:</div>
+			<div class="event-var ql-editor">
+				<p>Poznańska Impreza Wolnego Oprogramowania (P.I.W.O.) to otwarta, darmowa konferencja organizowana w Poznaniu, której głównym celem jest upowszechnianie idei wolnego i otwartego oprogramowania oraz promowanie systemów z rodziny GNU/Linux.</p><p><br></p><p>To całodniowe wydarzenie składa się z wykładów, warsztatów, lightning talków, wystaw, a także konkursów i turniejów LAN Party. Tematyka prelekcji obejmuje szeroki wachlarz zagadnień – programowanie, bezpieczeństwo, hacking, hardware, gaming, DevOps, administracja sieciami, a nawet zagadnienia prawne związane z wolnym oprogramowaniem. Nie zabraknie także darmowej pizzy i okazji do integracji społeczności.</p><p><br></p><p>Konferencja jest skierowana zarówno do osób początkujących, jak i profesjonalistów, w tym programistów, administratorów, studentów, uczniów szkół średnich oraz entuzjastów wolnego oprogramowania.</p>                                            </div>
+		</div>
+		
+		<div class="event-update-cta">
+			<p class="event-update-cta__hint">
+				See an error in the description or event details?    </p>
+			<p class="event-update-cta__login">Log in, by zgłosić zmianę.</p>
+		</div>
+	
+	
+	
+	</div>
+	
+	<div id="sidebar" class="phoneOff tabletOff">
+		<a href="/en/event-series/knyfyrtel-hackerspace-poznan/" class="fc-black-light fw-regular">
+			<img src="/upload/gallery/cycles/12877/300x300/projekt_bez_nazwy.png" alt="Knyfyrtel Hackerspace Poznań">
+		</a>
+		<h2 class="font-detail">
+			<a href="/en/event-series/knyfyrtel-hackerspace-poznan/">Knyfyrtel Hackerspace Poznań</a>
+		</h2>
+		<div class="serie-links">
+			<a href="/en/event-series/knyfyrtel-hackerspace-poznan/#wydarzenia" class="fw-regular serie-links-events">Upcoming events (1)</a>
+			<a href="/en/event-series/knyfyrtel-hackerspace-poznan/#wydarzenia" class="fw-regular fc-black-light">Past events (43)</a>
+			<a href="javascript:void(0)" class="event-addcycletofav fw-regular follow-the-cykle" data-userlogged="">
+      <span class="icon active">
+        <svg xmlns="https://www.w3.org/2000/svg" width="30" height="27.504" viewBox="0 0 1250 1146">
+          <image id="Warstwa_1" data-name="Warstwa 1" x="35" y="6" width="1180" height="1117" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACMVBMVEUAAAAUeqoUeqoUeqoUeqoUeqoUeqoVe6kVe6kVeqkVeqkFcbY5j446j40EcbYUeqpxrmZ0sGQVeqoPd66LvVMOd68Bb7gwipUzi5MAbrkUeqoVeqpXoHlZoXYUeqkUeqoUeqoUeqoUeqoVe6kReKwOd68UeqsTeqt+tlyAt1oOd68ReK0UeqoUeqoUeqoUeqojgZ4BbrYHcrIVeqkWeqgDcLU0jJE3jZACb7YVeqgIcrIAbbcigZ8UeqoUeqoUeqoQeK1Il4JKl4EQd60UeqoVe6kMdbBUn3xXoHoMdbAVe6kReKwlhJ6XxEqZxUgnhZwQeK0We6lipXCkzEClzEBkpm8Ve6kXfKgEcbZ6s199tV0DcLcXe6gGcrWOvlCQwE4EcbYVeqlKmIJNmoAVeqoSeatrq2k6j405j49urWgSeawIc7KAtlojgp4hgaB+tVsHc7NNmoBaoXYWe6kWe6hYn3hQnH0SeathpXBMmYAJdLIWe6gWe6gKdLJJmIJjpm8SeasTeasSeasTeasTeasUeqoOd64UeqoOd64UeqoUeqoUeqoUeqoUeqoUeqoUeqoUeqoUeqoSeawQd60Pd60AbLwNdq4AbbsOd68Od64ReK0NdrAUeqoReKwfgKIVeqkWe6kKdbELdbEAar8AbroIc7MJdLIAbrkCcLcjgp8lg50FcbUGcrQbfqUdf6MAa70HcrQFcrUAa74MdbAafqUYfKcAb7gAb7kXfKcTeasAAACkgFatAAAAknRSTlMANTawtvb8Iih8g+zW0/AiS0IoiAGR8/Dp+AUcgnkiBF/Vwba919nZHBfYvtZiEZrM6O/v7+GfmuHv7+jMnhM85GFc6EAPu6mlwBKC7C8s6IdKYwgIX00a2Sch3xzCAwLKCqeeDlREra89XLsx5Og1w6txQj92ozdlnsQZFr+jYTuAeHSG0t4y2tg3nZg+ZnNvafuzGLwAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAABTklEQVQoz2NgQAaMTAy4ATMLHklWNtxy7JMmceCU5Jw8hQunJDcPLx8uOf6pAoJThXBICk8TYZgiikNSTJyBQUISWUQKzpKeKsPAIDtdDi4gz6CgqKSsoqqmpq4+Y6YGA4PmrNnq6upqWtrKSjq6DHr6c+bOMzA0MjYxNQMpN7cwsbSytpk3d46tHZBr7zDfEd16pwXOLhCWq9tCd1Q5j0WeXnCO92IfX4SUn//iAGSlgUuWBgVDmCGhy5aEoRoUHrE8EsKKWhEdg+6E2JVxEEb8qgR0ucSpSTBm8tQUNMnU1WlAMj0DSGSuyUKTzF7LwJCTu3hxXj4Dw7oCNMn1hQxFG5YUlyzZWMpQth5VrnxRReWmqmoGhpraTXX1mxtQJBu3bN3WBGE2b9+xtgVFsnVnGzzJtnfs7ESW65rTjcztmdOLxOvrR3XChIlgCgD68VJgY2F3AAAAAABJRU5ErkJggg=="></image>
+        </svg>
+      </span>
+				(0)    </a>
+		</div>
+	</div>
+	
+	<div id="sidebar" class="phoneOff tabletOff">
+		<a href="/en/event-series/poznanska-impreza-wolnego-oprogramowania/" class="fc-black-light fw-regular">
+		</a>
+		<h2 class="font-detail">
+			<a href="/en/event-series/poznanska-impreza-wolnego-oprogramowania/">Poznańska Impreza Wolnego Oprogramowania</a>
+		</h2>
+		<div class="serie-links">
+			<a href="/en/event-series/poznanska-impreza-wolnego-oprogramowania/#wydarzenia" class="fw-regular serie-links-events">Upcoming events (1)</a>
+			<a href="/en/event-series/poznanska-impreza-wolnego-oprogramowania/#wydarzenia" class="fw-regular fc-black-light">Past events (1)</a>
+			<a href="javascript:void(0)" class="event-addcycletofav fw-regular follow-the-cykle" data-userlogged="">
+      <span class="icon active">
+        <svg xmlns="https://www.w3.org/2000/svg" width="30" height="27.504" viewBox="0 0 1250 1146">
+          <image id="Warstwa_1" data-name="Warstwa 1" x="35" y="6" width="1180" height="1117" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACMVBMVEUAAAAUeqoUeqoUeqoUeqoUeqoUeqoVe6kVe6kVeqkVeqkFcbY5j446j40EcbYUeqpxrmZ0sGQVeqoPd66LvVMOd68Bb7gwipUzi5MAbrkUeqoVeqpXoHlZoXYUeqkUeqoUeqoUeqoUeqoVe6kReKwOd68UeqsTeqt+tlyAt1oOd68ReK0UeqoUeqoUeqoUeqojgZ4BbrYHcrIVeqkWeqgDcLU0jJE3jZACb7YVeqgIcrIAbbcigZ8UeqoUeqoUeqoQeK1Il4JKl4EQd60UeqoVe6kMdbBUn3xXoHoMdbAVe6kReKwlhJ6XxEqZxUgnhZwQeK0We6lipXCkzEClzEBkpm8Ve6kXfKgEcbZ6s199tV0DcLcXe6gGcrWOvlCQwE4EcbYVeqlKmIJNmoAVeqoSeatrq2k6j405j49urWgSeawIc7KAtlojgp4hgaB+tVsHc7NNmoBaoXYWe6kWe6hYn3hQnH0SeathpXBMmYAJdLIWe6gWe6gKdLJJmIJjpm8SeasTeasSeasTeasTeasUeqoOd64UeqoOd64UeqoUeqoUeqoUeqoUeqoUeqoUeqoUeqoUeqoSeawQd60Pd60AbLwNdq4AbbsOd68Od64ReK0NdrAUeqoReKwfgKIVeqkWe6kKdbELdbEAar8AbroIc7MJdLIAbrkCcLcjgp8lg50FcbUGcrQbfqUdf6MAa70HcrQFcrUAa74MdbAafqUYfKcAb7gAb7kXfKcTeasAAACkgFatAAAAknRSTlMANTawtvb8Iih8g+zW0/AiS0IoiAGR8/Dp+AUcgnkiBF/Vwba919nZHBfYvtZiEZrM6O/v7+GfmuHv7+jMnhM85GFc6EAPu6mlwBKC7C8s6IdKYwgIX00a2Sch3xzCAwLKCqeeDlREra89XLsx5Og1w6txQj92ozdlnsQZFr+jYTuAeHSG0t4y2tg3nZg+ZnNvafuzGLwAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAABTklEQVQoz2NgQAaMTAy4ATMLHklWNtxy7JMmceCU5Jw8hQunJDcPLx8uOf6pAoJThXBICk8TYZgiikNSTJyBQUISWUQKzpKeKsPAIDtdDi4gz6CgqKSsoqqmpq4+Y6YGA4PmrNnq6upqWtrKSjq6DHr6c+bOMzA0MjYxNQMpN7cwsbSytpk3d46tHZBr7zDfEd16pwXOLhCWq9tCd1Q5j0WeXnCO92IfX4SUn//iAGSlgUuWBgVDmCGhy5aEoRoUHrE8EsKKWhEdg+6E2JVxEEb8qgR0ucSpSTBm8tQUNMnU1WlAMj0DSGSuyUKTzF7LwJCTu3hxXj4Dw7oCNMn1hQxFG5YUlyzZWMpQth5VrnxRReWmqmoGhpraTXX1mxtQJBu3bN3WBGE2b9+xtgVFsnVnGzzJtnfs7ESW65rTjcztmdOLxOvrR3XChIlgCgD68VJgY2F3AAAAAABJRU5ErkJggg=="></image>
+        </svg>
+      </span>
+				(0)    </a>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<h2>
+		<span class="title">Similar events</span>
+	</h2>
+	
+	<div class="ff"></div>
+	
+	
+	<div class="event-list clearfix ">
+		<div class="empty-list">There are no upcoming events for these parameters in the Crossweb database.<br>Do you know about an event? <a href="/dodaj-wydarzenie/">Please add it.</a></div>
+	</div>
+	
+	
+	<div class="companies-crossjob">
+		<h2>Profile of employers</h2>
+		
+		<div class="companies-box companies-box-mainpage">
+			<a href="/en/job/sim-factor">
+				<img src="/upload/company/header/sim-factor-company-logo-400x400-1663332379.jpg" alt="Logo SIM FACTOR">
+			</a>
+			<a href="/en/job/velobank">
+				<img src="/upload/company/header/velobank-logo-400x400-1738128472.png" alt="Logo VeloBank">
+			</a>
+			<a href="/en/job/motorola-solutions">
+				<img src="/upload/company/header/motorola-solutions-logo-400x400-1675847958.png" alt="Logo Motorola Solutions">
+			</a>
+			<a href="/en/job/aldi-techhub">
+				<img src="/upload/company/header/aldi-techhub-logo-400x400-1737634485.png" alt="Logo ALDI Technology Support">
+			</a>
+		</div>
+	
+	</div>
+
+
+
+</div>

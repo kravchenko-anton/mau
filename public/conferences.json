@@ -1,0 +1,1750 @@
+[
+	{
+		"id": 1,
+		"name": "Hackathon dla Małopolski 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Hackathon",
+		"date_start": "2026-05-30",
+		"date_end": "2026-05-31",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/hackathon-dla-malopolski-2026/"
+	},
+	{
+		"id": 2,
+		"name": "XV Poznańska Impreza Wolnego Oprogramowania 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Poznań",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-05-30",
+		"date_end": "2026-05-30",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, programming, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/xv-poznanska-impreza-wolnego-oprogramowania-2026/"
+	},
+	{
+		"id": 3,
+		"name": "BitcoinWalk w Warszawie",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-05-30",
+		"date_end": "2026-05-30",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, networking, Crypto",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/bitcoinwalk-w-warszawie-30-maj-2026/"
+	},
+	{
+		"id": 4,
+		"name": "19. Międzynarodowe Targi Wynalazków i Innowacji INTARG 2026",
+		"category": [
+			"biznes"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "business",
+		"format": "Fairs",
+		"date_start": "2026-06-02",
+		"date_end": "2026-06-03",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/19-miedzynarodowe-targi-wynalazkow-i-innowacji-intarg-2026/"
+	},
+	{
+		"id": 5,
+		"name": "Robimy Startupy w Łodzi #417",
+		"category": [
+			"technologie"
+		],
+		"city": "Łódź",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-02",
+		"date_end": "2026-06-02",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "Startup",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/robimy-startupy-w-lodzi-417/"
+	},
+	{
+		"id": 6,
+		"name": "EBMASTERS Kraków #42",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-02",
+		"date_end": "2026-06-02",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "HR, Employer Branding",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/ebmasters-krakow-42/"
+	},
+	{
+		"id": 7,
+		"name": "OWASP Meeting in Krakow – MCP Security and LLMs in Red...",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-02",
+		"date_end": "2026-06-02",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/owasp-meeting-in-krakow-mcp-security-and-llms-in-red-team-operations-czerwiec-2026/"
+	},
+	{
+		"id": 8,
+		"name": "V edycja Złote Graale (i gorzkie żale) Marketingu - MeetUp",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-02",
+		"date_end": "2026-06-02",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "E-marketing, social media, new media, brand building",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/v-edycja-zlote-graale-i-gorzkie-zale-marketingu-meetup-czerwiec-2026/"
+	},
+	{
+		"id": 9,
+		"name": "semKRK#24 BIG 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-03",
+		"date_end": "2026-06-03",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, e-business, e-commerce, SEO/SEM, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/semkrk24-big-2026/"
+	},
+	{
+		"id": 10,
+		"name": "Bitcoin FilmFest 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-04",
+		"date_end": "2026-06-07",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, Crypto",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/bitcoin-filmfest-2026/"
+	},
+	{
+		"id": 11,
+		"name": "WordCamp Europe 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-04",
+		"date_end": "2026-06-06",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, WordPress",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/wordcamp-europe-2026/"
+	},
+	{
+		"id": 12,
+		"name": "OpenCoffee",
+		"category": [
+			"technologie"
+		],
+		"city": "Łódź",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-05",
+		"date_end": "2026-06-05",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Startup, networking",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/opencoffee-czerwiec-2026/"
+	},
+	{
+		"id": 13,
+		"name": "Q-meetup #3",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-08",
+		"date_end": "2026-06-08",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Big Data, Cloud, network, Data Science",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/q-meetup-3/"
+	},
+	{
+		"id": 14,
+		"name": "Kobiety Rakiety 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-08",
+		"date_end": "2026-06-08",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "HR, Leadership, brand building, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/kobiety-rakiety-2026/"
+	},
+	{
+		"id": 15,
+		"name": "Lean TWI Summit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, Agile/Scrum, AI/ML, Employer Branding, Diversity, Equity & Inclusion , HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/lean-twi-summit-2026/"
+	},
+	{
+		"id": 16,
+		"name": "Tech Week 2026: From Code to Capability",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security, AI/ML, IoT, architecture",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/tech-week-2026-from-code-to-capability/"
+	},
+	{
+		"id": 17,
+		"name": "ProMEET#44",
+		"category": [
+			"technologie"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-09",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, database, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/promeet44/"
+	},
+	{
+		"id": 18,
+		"name": "Build With AI #6: Orchestrators & Agents",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-09",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/build-with-ai-6-orchestrators-agents/"
+	},
+	{
+		"id": 19,
+		"name": "AI Developer Meetup Kraków",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-09",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/ai-developer-meetup-krakow-czerwiec-2026/"
+	},
+	{
+		"id": 20,
+		"name": "Tipi UX #2 Gdańsk",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-09",
+		"date_end": "2026-06-09",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "UX, networking, Leadership, brand building, UI",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/tipi-ux-2-gdansk/"
+	},
+	{
+		"id": 21,
+		"name": "Chief Data Officer Forum 2026 - All about data Między...",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, programming, database, Big Data, analytics, Business Analysis, Data Science",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/chief-data-officer-forum-2026-all-about-data-miedzy-regulacjami-etyka-i-zdrowym-rozsadkiem-w-poszukiwaniu-rownowagi/"
+	},
+	{
+		"id": 22,
+		"name": "Twój samochód Cię obserwuje: kamery kabinowe od...",
+		"category": [
+			"technologie"
+		],
+		"city": "Łódź",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/twoj-samochod-cie-obserwuje-kamery-kabinowe-od-sensora-do-sterownika-v4l2/"
+	},
+	{
+		"id": 23,
+		"name": "[KRK] 26 spotkanie Microsoft Azure User Group Poland w Krakowie",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Azure",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/krk-26-spotkanie-microsoft-azure-user-group-poland-w-krakowie/"
+	},
+	{
+		"id": 24,
+		"name": "SysOps/DevOps Katowice MeetUp #25",
+		"category": [
+			"technologie"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, DevOps",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/sysops-devops-katowice-meetup-25/"
+	},
+	{
+		"id": 25,
+		"name": "Talks #16: Testy w dbt, FinOps w Databricks, Data Mesh &...",
+		"category": [
+			"technologie"
+		],
+		"city": "Poznań",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, database, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/talks-16-testy-w-dbt-finops-w-databricks-data-mesh-data-lakehouse/"
+	},
+	{
+		"id": 26,
+		"name": "WarsawJS Meetup #139 - onsite",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-10",
+		"date_end": "2026-06-10",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, JavaScript",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/warsawjs-meetup-139-onsite/"
+	},
+	{
+		"id": 27,
+		"name": "Konferencja HR Kadry Płace 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, Employer Branding, Diversity, Equity & Inclusion , Kadry i płace, Rekrutacja, HR miękki",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/konferencja-hr-kadry-place-2026/"
+	},
+	{
+		"id": 28,
+		"name": "OpenCoffeeKRK #309",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "Startup, networking",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/opencoffeekrk-309/"
+	},
+	{
+		"id": 29,
+		"name": "VideoConf 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "E-marketing, video",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/videoconf-2026/"
+	},
+	{
+		"id": 30,
+		"name": "AppGala - Mobile App Growth Confrerence 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, mobile",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/appgala-mobile-app-growth-confrerence-2026/"
+	},
+	{
+		"id": 31,
+		"name": "meet.js Wrocław 2026-06-11",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, JavaScript",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/meet-js-wroclaw-2026-06-11/"
+	},
+	{
+		"id": 32,
+		"name": "Tech Talk | MeetUp Katowice #2: Java & JavaScript",
+		"category": [
+			"technologie"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, JavaScript, Java, Angular",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/tech-talk-meetup-katowice-2-java-javascript/"
+	},
+	{
+		"id": 33,
+		"name": "SysOps/DevOps Kraków MeetUp #28",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, DevOps",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/sysops-devops-krakow-meetup-28/"
+	},
+	{
+		"id": 34,
+		"name": "ProductTank Warsaw - June 11",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-11",
+		"date_end": "2026-06-11",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Product",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/producttank-warsaw-june-11/"
+	},
+	{
+		"id": 35,
+		"name": "Forum i Gala Woman Power 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-12",
+		"date_end": "2026-06-12",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, Leadership, brand building",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/forum-i-gala-woman-power-2026/"
+	},
+	{
+		"id": 36,
+		"name": "Let's talk about IT # 11 - Feedback - game changer rozwoju",
+		"category": [
+			"technologie"
+		],
+		"city": "Rzeszów",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-12",
+		"date_end": "2026-06-12",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/let-s-talk-about-it-11-feedback-game-changer-rozwoju/"
+	},
+	{
+		"id": 37,
+		"name": "Rapid Baran Development (piknik)",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-13",
+		"date_end": "2026-06-13",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, networking",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/rapid-baran-development-piknik-czerwiec-2026/"
+	},
+	{
+		"id": 38,
+		"name": "Konferencja Kadry i Płace w obliczu zmian 2026 r....",
+		"category": [
+			"technologie"
+		],
+		"city": "Toruń",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-15",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, AI/ML, Kadry i płace, Rekrutacja, HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/konferencja-kadry-i-place-w-obliczu-zmian-2026-r-wyzwania-szanse-ryzyka/"
+	},
+	{
+		"id": 39,
+		"name": "CyberSec Expo & Forum 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-15",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security, database, Cloud, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/cybersec-expo-forum-2026/"
+	},
+	{
+		"id": 40,
+		"name": "ISSA Polska Katowice - 9 spotkanie",
+		"category": [
+			"technologie"
+		],
+		"city": "Katowice",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-15",
+		"date_end": "2026-06-15",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/issa-polska-katowice-9-spotkanie/"
+	},
+	{
+		"id": 41,
+		"name": "Data AI Conf 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-16",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, database, Big Data, Cloud, AI/ML, AWS, Azure",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/data-ai-conf-2026/"
+	},
+	{
+		"id": 42,
+		"name": "#12 Atlassian Community Event in Poznań",
+		"category": [
+			"technologie"
+		],
+		"city": "Poznań",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-16",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Project management, Cloud",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/12-atlassian-community-event-in-poznan/"
+	},
+	{
+		"id": 43,
+		"name": "EBMASTERS Trójmiasto #9",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-16",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "HR, Employer Branding",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/ebmasters-trojmiasto-9/"
+	},
+	{
+		"id": 44,
+		"name": "PostgreSQL migrations, LLMs & AI performance tuning",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-16",
+		"date_end": "2026-06-16",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, database, AI/ML, SQL",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/postgresql-migrations-llms-ai-performance-tuning-czerwiec-2026/"
+	},
+	{
+		"id": 45,
+		"name": "Carpathian Startup Fest 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Rzeszów",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "Startup",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/carpathian-startup-fest-2026/"
+	},
+	{
+		"id": 46,
+		"name": "Głos jest Twoją wizytówką! Czyli jak budować...",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-17",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, networking",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/glos-jest-twoja-wizytowka-czyli-jak-budowac-autorytet-glosem-w-biznesie-czerwiec-2026/"
+	},
+	{
+		"id": 47,
+		"name": "Devoxx Poland 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-19",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, UX, programming, Java, security, Big Data, AI/ML, UI",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/devoxx-poland-2026/"
+	},
+	{
+		"id": 48,
+		"name": "IT Unplugged 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Lublin",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-17",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security, AI/ML, Leadership, Diversity, Equity & Inclusion , HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/it-unplugged-2026/"
+	},
+	{
+		"id": 49,
+		"name": "Tech Leaders Meetups #10",
+		"category": [
+			"technologie"
+		],
+		"city": "Poznań",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-17",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Startup, UX, design, AI/ML, Leadership, productivity, Product",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/tech-leaders-meetups-10/"
+	},
+	{
+		"id": 50,
+		"name": "Mindstone Warsaw June AI Meetup",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-17",
+		"date_end": "2026-06-17",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/mindstone-warsaw-june-ai-meetup-czerwiec-2026/"
+	},
+	{
+		"id": 51,
+		"name": "HR na Pokładzie 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Łódź",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "HR, AI/ML, Employer Branding, Diversity, Equity & Inclusion , HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/hr-na-pokladzie-2026/"
+	},
+	{
+		"id": 52,
+		"name": "AIUP! Zjazd 2",
+		"category": [
+			"technologie"
+		],
+		"city": "Toruń",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, AI/ML",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/aiup-zjazd-2/"
+	},
+	{
+		"id": 53,
+		"name": "67. Czwartek Social Media w Poznaniu | Klub na fali",
+		"category": [
+			"technologie"
+		],
+		"city": "Poznań",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "E-marketing, social media",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/67-czwartek-social-media-w-poznaniu-klub-na-fali/"
+	},
+	{
+		"id": 54,
+		"name": "KraQA #73",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, QA/Testing",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/kraqa-73/"
+	},
+	{
+		"id": 55,
+		"name": "SysOps/DevOps Warszawa MeetUp #86",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security, DevOps",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/sysops-devops-warszawa-meetup-86/"
+	},
+	{
+		"id": 56,
+		"name": "136 Spotkanie Data Community we Wrocławiu",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-18",
+		"date_end": "2026-06-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, database",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/136-spotkanie-data-community-we-wroclawiu/"
+	},
+	{
+		"id": 57,
+		"name": "Games & Visuals Trójmiasto #27",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-19",
+		"date_end": "2026-06-19",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Game Dev",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/games-visuals-trojmiasto-27/"
+	},
+	{
+		"id": 58,
+		"name": "IT Manager of Tomorrow 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-23",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, HR, Project management, AI/ML, Leadership, work in IT, Employer Branding, Diversity, Equity & Inclusion",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/it-manager-of-tomorrow-2026/"
+	},
+	{
+		"id": 59,
+		"name": "AI Industry Expo 2026",
+		"category": [
+			"biznes"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "business",
+		"format": "Fairs",
+		"date_start": "2026-06-23",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, AI/ML, IoT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/ai-industry-expo-2026/"
+	},
+	{
+		"id": 60,
+		"name": "Międzynarodowe Targi Cyberbezpieczeństwa 2026",
+		"category": [
+			"biznes"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "business",
+		"format": "Fairs",
+		"date_start": "2026-06-23",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/miedzynarodowe-targi-cyberbezpieczenstwa-2026/"
+	},
+	{
+		"id": 61,
+		"name": "AWS User Group Wrocław Meetup - 23.06.2026 [EN]",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-23",
+		"date_end": "2026-06-23",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, AI/ML, AWS",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/aws-user-group-wroclaw-meetup-23062026-en/"
+	},
+	{
+		"id": 62,
+		"name": "WordUp Białystok #10",
+		"category": [
+			"technologie"
+		],
+		"city": "Białystok",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-23",
+		"date_end": "2026-06-23",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, WordPress",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/wordup-bialystok-10/"
+	},
+	{
+		"id": 63,
+		"name": "PAM - Project & Analysis Management Summit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-24",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, Project management, analytics",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/pam-project-analysis-management-summit-2026/"
+	},
+	{
+		"id": 64,
+		"name": "Engineering Excellence Congress 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-06-24",
+		"date_end": "2026-06-24",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, programming, Java, Cloud, AI/ML, DDD",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/engineering-excellence-congress-2026/"
+	},
+	{
+		"id": 65,
+		"name": "HRujże #7",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-25",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, HR, Rekrutacja, HR miękki",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/hrujze-7/"
+	},
+	{
+		"id": 66,
+		"name": "[GDN] 23 Meetup Microsoft Azure User Group Poland w Gdańsku",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-06-25",
+		"date_end": "2026-06-25",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security, AI/ML, Azure",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/gdn-23-meetup-microsoft-azure-user-group-poland-w-gdansku/"
+	},
+	{
+		"id": 67,
+		"name": "DevopsDays Kraków 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-07-04",
+		"date_end": "2026-07-04",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, DevOps",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/devopsdays-krakow-2026/"
+	},
+	{
+		"id": 68,
+		"name": "useR! Conference 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-07-06",
+		"date_end": "2026-07-09",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, programming, design",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/user-conference-2026/"
+	},
+	{
+		"id": 69,
+		"name": "WAWTech + Summer 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-07-18",
+		"date_end": "2026-07-18",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/wawtech-summer-2026/"
+	},
+	{
+		"id": 70,
+		"name": "WordUp Gdynia Oldschool #3",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-07-18",
+		"date_end": "2026-07-18",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, e-business, WordPress, networking",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/wordup-gdynia-oldschool-3/"
+	},
+	{
+		"id": 71,
+		"name": "KSC Forum 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Wisła",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-08-26",
+		"date_end": "2026-08-28",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/ksc-forum-2026/"
+	},
+	{
+		"id": 72,
+		"name": "PyCon PL 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Gliwice",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-08-27",
+		"date_end": "2026-08-30",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, Python, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/pycon-pl-2026/"
+	},
+	{
+		"id": 73,
+		"name": "POUG - Polish Oracle User Group 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-04",
+		"date_end": "2026-09-05",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/poug-polish-oracle-user-group-2026/"
+	},
+	{
+		"id": 74,
+		"name": "TECH RACE summit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-10",
+		"date_end": "2026-09-10",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, AI/ML, Fintech",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/tech-race-summit-2026/"
+	},
+	{
+		"id": 75,
+		"name": "Q-Con Quantum Conference 2025",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-11",
+		"date_end": "2026-09-11",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, Startup, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/q-con-quantum-conference-2025/"
+	},
+	{
+		"id": 76,
+		"name": "Pabia NICE Conference 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Łódź",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-12",
+		"date_end": "2026-09-12",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, Startup, E-marketing, UX, HR, programming, Agile/Scrum, Project management, motivation, networking, education",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/pabia-nice-conference-2026/"
+	},
+	{
+		"id": 77,
+		"name": "BBConf4.IT: Konferencja IT w Górach 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Bielsko-Biała",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-12",
+		"date_end": "2026-09-23",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, security, AI/ML, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/bbconf4it-konferencja-it-w-gorach-2026/"
+	},
+	{
+		"id": 78,
+		"name": "Code Europe 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-14",
+		"date_end": "2026-09-15",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security, database, Cloud, AI/ML, DevOps, architecture",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/code-europe-2026/"
+	},
+	{
+		"id": 79,
+		"name": "Targi Pracy NETWORKPOWER jesień 2026",
+		"category": [
+			"biznes"
+		],
+		"city": "Rzeszów",
+		"important": false,
+		"type": "business",
+		"format": "Job fairs",
+		"date_start": "2026-09-15",
+		"date_end": "2026-09-15",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "HR, Rekrutacja",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/targi-pracy-networkpower-jesien-2026/"
+	},
+	{
+		"id": 80,
+		"name": "HR Dragon Summit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-17",
+		"date_end": "2026-09-17",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, Employer Branding, Diversity, Equity & Inclusion , Rekrutacja, HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/hr-dragon-summit-2026/"
+	},
+	{
+		"id": 81,
+		"name": "WordUp Gdynia #25 (WordPress Meetup)",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Meetup",
+		"date_start": "2026-09-19",
+		"date_end": "2026-09-19",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, E-marketing, e-business, e-commerce, WordPress",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/wordup-gdynia-25-wordpress-meetup/"
+	},
+	{
+		"id": 82,
+		"name": "7. meetbenefit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-23",
+		"date_end": "2026-09-23",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "HR, Employer Branding, Diversity, Equity & Inclusion , Kadry i płace, HR miękki , Mental health",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/7-meetbenefit-2026/"
+	},
+	{
+		"id": 83,
+		"name": "Confitura 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-09-25",
+		"date_end": "2026-09-26",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/confitura-2026/"
+	},
+	{
+		"id": 84,
+		"name": "HackYeah 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Hackathon",
+		"date_start": "2026-10-03",
+		"date_end": "2026-10-04",
+		"venue": null,
+		"price_pln": "0",
+		"target_audience": "IT, programming, Project management, analytics, motivation, networking, education",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/hackyeah-2026/"
+	},
+	{
+		"id": 85,
+		"name": "Testing Ground Conference 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-10-05",
+		"date_end": "2026-10-06",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, QA/Testing, security, Call For Papers, Accessibility",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/testing-ground-conference-2026/"
+	},
+	{
+		"id": 86,
+		"name": "AgileByExample 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-10-12",
+		"date_end": "2026-10-14",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, Agile/Scrum, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/agilebyexample-2026/"
+	},
+	{
+		"id": 87,
+		"name": "The Hack Summit 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-10-13",
+		"date_end": "2026-10-14",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/the-hack-summit-2026/"
+	},
+	{
+		"id": 88,
+		"name": "JDD 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Kraków",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-10-20",
+		"date_end": "2026-10-21",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, programming, Java, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/jdd-2026/"
+	},
+	{
+		"id": 89,
+		"name": "Made in Wrocław 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Wrocław",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-10-27",
+		"date_end": "2026-10-28",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "Startup, Leadership, brand building",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/made-in-wroclaw-2026/"
+	},
+	{
+		"id": 90,
+		"name": "TestWarez 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Sopot",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-11-04",
+		"date_end": "2026-11-06",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, QA/Testing, Call For Papers",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/testwarez-2026/"
+	},
+	{
+		"id": 91,
+		"name": "CMS Conf 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Trójmiasto",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-11-12",
+		"date_end": "2026-11-14",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, CMS",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/cms-conf-2026/"
+	},
+	{
+		"id": 92,
+		"name": "Oh My Hack 2026",
+		"category": [
+			"technologie"
+		],
+		"city": "Warszawa",
+		"important": false,
+		"type": "tech",
+		"format": "Conference",
+		"date_start": "2026-12-02",
+		"date_end": "2026-12-02",
+		"venue": null,
+		"price_pln": "Paid",
+		"target_audience": "IT, security",
+		"previous_edition_attendance": null,
+		"image_url": null,
+		"url": "https://crossweb.pl/en/events/oh-my-hack-2026/"
+	}
+]

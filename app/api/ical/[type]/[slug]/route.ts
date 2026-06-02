@@ -1,9 +1,15 @@
 import { NextResponse } from "next/server"
 import rawEvents from "@/public/events.json"
+import rawDescriptions from "@/public/events_descriptions.json"
 import { getCityBySlug } from "@/lib/cities"
 import { getCategoryBySlug } from "@/lib/categories"
 
 type RawEvent = (typeof rawEvents)[number]
+
+// Descriptions live in a separate file keyed by event id.
+const descriptionById = new Map<number, string>(
+  rawDescriptions.map((d) => [d.id, d.description])
+)
 
 function escapeIcs(str: string): string {
   return str
@@ -44,7 +50,7 @@ function buildVEvent(ev: RawEvent): string {
     `DTSTART;VALUE=DATE:${dateToIcs(ev.date_start)}`,
     `DTEND;VALUE=DATE:${nextDay(ev.date_end)}`,
     foldLine(`SUMMARY:${escapeIcs(ev.name)}`),
-    foldLine(`DESCRIPTION:${escapeIcs(ev.description ?? "")}`),
+    foldLine(`DESCRIPTION:${escapeIcs(descriptionById.get(ev.id) ?? "")}`),
     foldLine(`LOCATION:${escapeIcs(ev.venue)}`),
     foldLine(`URL:${ev.url}`),
     "END:VEVENT",
@@ -83,14 +89,13 @@ export async function GET(
   if (type === "city") {
     const city = getCityBySlug(slug)
     if (!city) return new NextResponse("Not found", { status: 404 })
-    // All events are from Poznań — show them for Poznań; others get empty feed for now
-    events = slug === "poznan" ? rawEvents : []
+    events = rawEvents.filter((e) => e.city === city.name)
     calName = `${city.name} — mau.app`
     calDesc = `Nadchodzące wydarzenia w ${city.name}`
   } else if (type === "category") {
     const category = getCategoryBySlug(slug)
     if (!category) return new NextResponse("Not found", { status: 404 })
-    events = rawEvents.filter((e) => e.type === category.eventType)
+    events = rawEvents.filter((e) => e.category.includes(category.key))
     calName = `${category.label} — mau.app`
     calDesc = category.description
   } else {

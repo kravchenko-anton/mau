@@ -8,6 +8,7 @@ export type EventItem = {
   location: string
   date: string
   icon: ReactNode
+  url?: string
 }
 
 export type MonthGroup = {
@@ -42,7 +43,8 @@ export function EventList({ groups }: { groups: MonthGroup[] }) {
               {group.events.map((event) => (
                 <li key={event.name}>
                   <a
-                    href="#"
+                    href={event.url ?? "#"}
+                    {...(event.url ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                     className="group grid grid-cols-[auto_1fr] items-center gap-4 rounded-lg p-3 transition-colors hover:bg-card-hover md:grid-cols-[auto_minmax(0,2fr)_minmax(0,1.3fr)_auto_auto]"
                   >
                     {event.icon}

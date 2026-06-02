@@ -1,14 +1,17 @@
 import Image from "next/image"
-import Link from "next/link"
 import { SiteHeader } from "@/components/discover/site-header"
 import { SiteFooter } from "@/components/discover/site-footer"
-import { MapPinned, MapPin, CalendarDays, ArrowUpRight } from "lucide-react"
-import { getCityEventGroups } from "@/lib/events"
+import { EventList } from "@/components/discover/event-list"
+import { EventTimeline } from "@/components/discover/event-timeline"
+import { MapPinned, CalendarX } from "lucide-react"
+import { getEventsByCity, toListGroups, toCardGroups } from "@/lib/events"
 import { ICalSubscribeButton } from "@/components/ical-subscribe-button"
 import type { City } from "@/lib/cities"
 
 export function CityPage({ city }: { city: City }) {
-  const groups = getCityEventGroups()
+  const events = getEventsByCity(city.name)
+  const importantGroups = toListGroups(events.filter((e) => e.important))
+  const restGroups = toCardGroups(events.filter((e) => !e.important))
 
   return (
     <>
@@ -63,61 +66,36 @@ export function CityPage({ city }: { city: City }) {
         </section>
 
         {/* Events + Sidebar */}
-        <div className="grid grid-cols-[1fr_300px] gap-8 items-start">
+        <div className="mx-auto grid grid-cols-[1fr_300px] gap-8 items-start max-w-[1040px]">
 
           {/* Events */}
           <div>
-            <h2 className="mb-6 text-[32px] font-bold text-foreground">Wydarzenia</h2>
-
-            {groups.map((group) => (
-              <div key={group.month}>
-                <div className="my-5 flex items-center gap-2.5">
-                  <div className="size-[7px] rounded-full bg-foreground" />
-                  <span className="font-mono text-sm font-semibold text-foreground">{group.month}</span>
+            {events.length === 0 && (
+              <>
+                <h2 className="mb-6 text-[32px] font-bold text-foreground">Wydarzenia</h2>
+                <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-black/10 px-6 py-16 text-center">
+                  <CalendarX className="size-8 text-muted-foreground" />
+                  <p className="font-semibold text-foreground">Wkrótce</p>
+                  <p className="max-w-sm text-sm text-muted-foreground">
+                    Nie mamy jeszcze wydarzeń w {city.name}. Subskrybuj kalendarz, aby otrzymać powiadomienie, gdy się pojawią.
+                  </p>
                 </div>
+              </>
+            )}
 
-                <div className="relative ml-[3px] border-l border-black/10">
-                  {group.events.map((ev) => (
-                    <div key={ev.name} className="relative pb-2 pl-6">
-                      <div className="absolute -left-[4px] top-[7px] size-[7px] rounded-full bg-black/20 outline outline-3 outline-background" />
+            {importantGroups.length > 0 && (
+              <section className="mb-10">
+                <h2 className="mb-4 text-[32px] font-bold text-foreground">Najważniejsze wydarzenia</h2>
+                <EventList groups={importantGroups} />
+              </section>
+            )}
 
-                      <Link
-                        href={ev.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group flex items-stretch gap-3 rounded-2xl border border-black/8 bg-card px-5 py-4 transition-colors hover:bg-card-hover"
-                      >
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-1.5 font-mono text-[12px] text-muted-foreground mb-1.5">
-                            <CalendarDays className="size-3" />
-                            {ev.dateRange}
-                          </div>
-                          <div className="flex items-start justify-between gap-2 mb-1.5">
-                            <div className="text-[15px] font-semibold text-foreground">{ev.name}</div>
-                            <ArrowUpRight className="size-4 shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100 mt-0.5" />
-                          </div>
-                          <div className="flex items-center gap-1.5 text-[13px] text-muted-foreground">
-                            <MapPin className="size-3.5 shrink-0" /> {ev.venue}
-                          </div>
-                        </div>
-
-                        {ev.imageUrl && (
-                          <div className="relative size-[72px] shrink-0 overflow-hidden rounded-xl border border-black/8">
-                            <Image
-                              src={ev.imageUrl}
-                              alt={ev.name}
-                              fill
-                              className="object-cover transition-transform duration-500 group-hover:scale-105"
-                              unoptimized
-                            />
-                          </div>
-                        )}
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
+            {restGroups.length > 0 && (
+              <section>
+                <h2 className="mb-2 text-[32px] font-bold text-foreground">Wydarzenia</h2>
+                <EventTimeline groups={restGroups} />
+              </section>
+            )}
           </div>
 
           {/* Sidebar */}

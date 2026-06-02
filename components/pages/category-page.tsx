@@ -1,13 +1,16 @@
 import { SiteHeader } from "@/components/discover/site-header"
 import { SiteFooter } from "@/components/discover/site-footer"
 import { EventList } from "@/components/discover/event-list"
-import { getEventGroups } from "@/lib/events"
+import { EventTimeline } from "@/components/discover/event-timeline"
+import { getEventsByCategory, toListGroups, toCardGroups } from "@/lib/events"
 import { ICalSubscribeButton } from "@/components/ical-subscribe-button"
 import type { Category } from "@/lib/categories"
 
 export function CategoryPage({ category }: { category: Category }) {
   const { icon: Icon, color } = category
-  const groups = getEventGroups(category.eventType)
+  const events = getEventsByCategory(category.key)
+  const importantGroups = toListGroups(events.filter((e) => e.important))
+  const restGroups = toCardGroups(events.filter((e) => !e.important))
 
   return (
     <>
@@ -58,11 +61,31 @@ export function CategoryPage({ category }: { category: Category }) {
         </section>
 
         <section className="mt-4 pb-24">
-          <div className="grid grid-cols-[1fr_300px] gap-8 items-start">
+          <div className="mx-auto grid grid-cols-[1fr_300px] gap-8 items-start max-w-[1040px]">
             {/* events list */}
             <div>
-              <h2 className="mb-7 text-[32px] text-foreground">Nadchodzące ważne wydarzenia</h2>
-              <EventList groups={groups} />
+              {events.length === 0 && (
+                <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-black/10 px-6 py-16 text-center">
+                  <p className="font-semibold text-foreground">Wkrótce</p>
+                  <p className="max-w-sm text-sm text-muted-foreground">
+                    Nie mamy jeszcze wydarzeń w tej kategorii. Subskrybuj kalendarz, aby otrzymać powiadomienie, gdy się pojawią.
+                  </p>
+                </div>
+              )}
+
+              {importantGroups.length > 0 && (
+                <section className="mb-10">
+                  <h2 className="mb-4 text-[32px] text-foreground">Najważniejsze wydarzenia</h2>
+                  <EventList groups={importantGroups} />
+                </section>
+              )}
+
+              {restGroups.length > 0 && (
+                <section>
+                  <h2 className="mb-2 text-[32px] text-foreground">Wydarzenia</h2>
+                  <EventTimeline groups={restGroups} />
+                </section>
+              )}
             </div>
 
             {/* sidebar */}

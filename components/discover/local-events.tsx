@@ -1,15 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-
-type City = { name: string; count: string; image: string; href: string }
-
-const cities: City[] = [
-  { name: "Warszawa", count: "Wkrótce", image: "/cities/warsaw 1.png", href: "/warsaw" },
-  { name: "Kraków", count: "Wkrótce", image: "/cities/krakow 2.png", href: "/krakow" },
-  { name: "Wrocław", count: "Wkrótce", image: "/cities/wroclaw 1.png", href: "/wroclaw" },
-  { name: "Poznań", count: "38 wydarzeń", image: "/cities/poznan 1.png", href: "/poznan" },
-  { name: "Gdańsk", count: "Wkrótce", image: "/cities/gdansk 1.png", href: "/gdansk" },
-]
+import { cities } from "@/lib/cities"
+import { formatEventCount } from "@/lib/utils"
 
 export function LocalEvents() {
   return (
@@ -20,8 +12,8 @@ export function LocalEvents() {
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
         {cities.map((city) => (
           <Link
-            key={city.name}
-            href={city.href}
+            key={city.slug}
+            href={`/${city.slug}`}
             className="group relative overflow-hidden rounded-2xl border border-black/10 aspect-[3/4] transition-transform hover:scale-[1.02]"
             style={{
               backgroundColor: "#f0eee6",
@@ -37,7 +29,7 @@ export function LocalEvents() {
             />
             <div className="absolute top-5 left-5 flex flex-col ">
               <span className="text-xl font-bold text-black">{city.name}</span>
-              <span className=" text-sm text-black/75">{city.count}</span>
+              <span className=" text-sm text-black/75">{formatEventCount(city.eventCount ?? 0)}</span>
             </div>
           </Link>
         ))}
