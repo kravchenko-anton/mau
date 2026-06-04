@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 export type EventItem = {
+  id?: string
   name: string
   meta: string
   location: string
@@ -41,7 +42,7 @@ export function EventList({ groups }: { groups: MonthGroup[] }) {
 
             <ul>
               {group.events.map((event) => (
-                <li key={event.name}>
+                <li key={event.id ?? `${event.name}-${event.date}-${event.location}`}>
                   <a
                     href={event.url ?? "#"}
                     {...(event.url ? { target: "_blank", rel: "noopener noreferrer" } : {})}

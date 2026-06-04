@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee1dd4aa-ba72-4f85-bc38-f9a6b8de79f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/discover/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cities/conferences_descriptions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cities/example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/ical/[type]/[slug]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/ical/[type]/[slug]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/discover/category-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/discover/category-grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/discover/event-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/discover/event-list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/discover/local-events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/discover/local-events.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/category-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/category-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/city-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/city-page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/categories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cities.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cities.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/events.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/conferences.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/events_descriptions.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +64,9 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -157,7 +153,8 @@
       <workItem from="1780087728537" duration="48000" />
       <workItem from="1780087790681" duration="5487000" />
       <workItem from="1780125783732" duration="4622000" />
-      <workItem from="1780397832112" duration="323000" />
+      <workItem from="1780397832112" duration="1588000" />
+      <workItem from="1780604121222" duration="1728000" />
     </task>
     <servers />
   </component>

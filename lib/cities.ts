@@ -1,4 +1,4 @@
-import rawEvents from "@/public/events.json"
+import { events } from "@/lib/event-data"
 
 export type City = {
   slug: string
@@ -44,7 +44,7 @@ const cityDefs: Omit<City, "eventCount">[] = [
 
 function countByCity(name: string): number {
   const today = new Date().toISOString().slice(0, 10)
-  return rawEvents.filter((e) => e.city === name && e.date_end >= today).length
+  return events.filter((e) => e.city === name && e.date_end >= today).length
 }
 
 export const cities: City[] = cityDefs.map((c) => {

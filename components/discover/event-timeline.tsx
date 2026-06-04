@@ -17,38 +17,59 @@ export function EventTimeline({ groups }: { groups: EventCardGroup[] }) {
 
           <div className="relative ml-[3px] border-l border-black/10">
             {group.events.map((ev) => (
-              <div key={ev.name} className="relative pb-2 pl-6">
-                <div className="absolute -left-[4px] top-[7px] size-[7px] rounded-full bg-black/20 outline outline-3 outline-background" />
+              <div key={ev.id} className="relative pb-4 pl-6">
+                <div className="absolute -left-[5px] top-10 size-2.5 rounded-full bg-foreground/20 outline outline-4 outline-background" />
 
                 <Link
                   href={ev.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-stretch gap-4 rounded-2xl border border-black/8 bg-card p-3 transition-colors hover:bg-card-hover"
+                  className="group flex min-h-[210px] flex-col gap-4 rounded-[28px] border border-black/10 bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:bg-card-hover hover:shadow-md md:flex-row md:items-stretch"
                 >
-                  <div className="flex flex-1 flex-col justify-center min-w-0 py-2 pl-2">
-                    <div className="flex items-center gap-1.5 font-mono text-[12px] text-muted-foreground mb-2">
-                      <CalendarDays className="size-3" />
-                      {ev.dateRange}
+                  <div className="flex min-w-0 flex-1 flex-col justify-center px-1 py-1 md:px-2">
+                    <div className="mb-4 flex flex-wrap items-center gap-2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-background/70 px-3 py-1 font-mono text-[12px] text-muted-foreground">
+                        <CalendarDays className="size-3.5" />
+                        {ev.dateRange}
+                      </span>
+                      {ev.type && (
+                        <span className="rounded-full bg-foreground/5 px-3 py-1 font-mono text-[12px] text-muted-foreground">
+                          {ev.type}
+                        </span>
+                      )}
                     </div>
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <div className="text-[17px] font-semibold leading-snug text-foreground">{ev.name}</div>
-                      <ArrowUpRight className="size-4 shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100 mt-1" />
+
+                    <div className="mb-4 flex items-start justify-between gap-4">
+                      <div className="text-[21px] font-semibold leading-tight text-foreground md:text-[23px]">{ev.name}</div>
+                      <ArrowUpRight className="mt-1 size-5 shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
                     </div>
-                    <div className="flex items-center gap-1.5 text-[13px] text-muted-foreground">
-                      <MapPin className="size-3.5 shrink-0" /> {ev.venue}
+
+                    <div className="flex items-start gap-2 text-[14px] leading-snug text-muted-foreground">
+                      <MapPin className="mt-0.5 size-4 shrink-0" />
+                      <div className="min-w-0">
+                        <div className="truncate font-medium text-foreground/75">{ev.place || ev.venue}</div>
+                        {ev.address && (
+                          <div className="mt-0.5 line-clamp-2">{ev.address}</div>
+                        )}
+                        {!ev.address && ev.city && (
+                          <div className="mt-0.5">{ev.city}</div>
+                        )}
+                      </div>
                     </div>
                   </div>
 
                   {ev.imageUrl && (
-                    <div className="relative size-[150px] shrink-0 self-center overflow-hidden rounded-xl border border-black/8">
-                      <Image
-                        src={ev.imageUrl}
-                        alt={ev.name}
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                        unoptimized
-                      />
+                    <div className="flex h-[190px] w-full shrink-0 items-center justify-center rounded-3xl border border-black/8 bg-[#f4f1e8] p-3 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.55)] md:h-auto md:w-[230px] lg:w-[250px]">
+                      <div className="relative h-full w-full overflow-hidden rounded-2xl bg-white/45">
+                        <Image
+                          src={ev.imageUrl}
+                          alt={ev.name}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 250px"
+                          className="object-contain p-2 transition-transform duration-500 group-hover:scale-[1.03]"
+                          unoptimized
+                        />
+                      </div>
                     </div>
                   )}
                 </Link>

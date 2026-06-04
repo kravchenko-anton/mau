@@ -1,0 +1,41 @@
+[
+	{
+		"slug": "ai-anonymous-4-czerwiec-2026",
+		"event": {
+			"name": "AI Anonymous",
+			"type": "Meetup",
+			"category": "IT",
+			"topic": "AI/ML, networking",
+			"language": "Polish",
+			"price": {
+				"type": "Free"
+			},
+			"date": {
+				"start": "2026-06-04",
+				"end": "2026-06-04",
+				"start_day": "Thursday",
+				"end_day": "Thursday"
+			},
+			"time": {
+				"start": "19:00"
+			},
+			"location": {
+				"city": "Warsaw",
+				"place": "Vita Cafe",
+				"address": "Dobra 42"
+			},
+			"website": "https://www.meetup.com/warsawinternational/events/314804426/",
+			"description": {
+				"short": "Meet us at Vita Cafe!"
+			},
+			"target_audience": "",
+			"image_url": "https://crossweb.pl/upload/gallery/event/89636/ai-anonymous-4-czerwiec-2026-1780302743.jpg",
+			"program_highlights": [],
+			"organizer": {
+				"name": "Warsaw International",
+				"upcoming_events_count": 1,
+				"past_events_count": 31
+			}
+		}
+	}
+]
