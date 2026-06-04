@@ -16,31 +16,31 @@ export function CityPage({ city }: { city: City }) {
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto max-w-[1400px] px-10 pb-24">
+      <main className="mx-auto max-w-[1400px] px-4 pb-16 sm:px-6 sm:pb-24 lg:px-10">
 
         {/* Hero */}
-        <section className="pt-[112px] pb-12">
-          <div className="grid grid-cols-[1fr_340px] gap-10 items-start">
+        <section className="pb-8 pt-16 sm:pt-24 lg:pb-12 lg:pt-[112px]">
+          <div className="grid gap-7 lg:grid-cols-[1fr_340px] lg:items-start lg:gap-10">
 
             {/* Info panel */}
-            <div className="flex flex-col gap-6 pt-4">
+            <div className="flex flex-col gap-5 pt-2 sm:gap-6 lg:pt-4">
               <div className="flex flex-col gap-3">
                 <div className="flex items-center gap-2 font-mono text-sm text-muted-foreground">
                   <MapPinned className="size-3.5" />
                   Co się dzieje w
                 </div>
-                <h1 className="text-[64px] leading-none font-bold text-foreground">{city.name}</h1>
+                <h1 className="text-[42px] leading-none font-bold text-foreground sm:text-[56px] lg:text-[64px]">{city.name}</h1>
                 <div className="font-mono text-sm text-muted-foreground">
                   {city.eventCount !== null ? `${city.eventCount} wydarzeń` : "Wkrótce"}
                 </div>
               </div>
-              <p className="max-w-lg leading-relaxed text-muted-foreground">{city.description}</p>
+              <p className="max-w-2xl leading-relaxed text-muted-foreground lg:max-w-lg">{city.description}</p>
               <ICalSubscribeButton name={city.name} type="city" slug={city.slug} />
             </div>
 
             {/* City visual card */}
             <div
-              className="relative overflow-hidden rounded-3xl border border-black/10 aspect-[4/5]"
+              className="relative aspect-[16/10] max-w-md overflow-hidden rounded-3xl border border-black/10 sm:aspect-[4/3] lg:aspect-[4/5] lg:max-w-none"
               style={{
                 backgroundColor: "#f0eee6",
                 backgroundImage: "radial-gradient(circle, #c8c5bc 1px, transparent 1px)",
@@ -52,6 +52,7 @@ export function CityPage({ city }: { city: City }) {
                 alt={city.name}
                 fill
                 priority
+                sizes="(max-width: 1024px) 100vw, 340px"
                 className="object-contain object-bottom"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
@@ -66,13 +67,13 @@ export function CityPage({ city }: { city: City }) {
         </section>
 
         {/* Events + Sidebar */}
-        <div className="mx-auto grid grid-cols-[1fr_300px] gap-8 items-start max-w-[1040px]">
+        <div className="mx-auto grid max-w-[1040px] gap-8 lg:grid-cols-[1fr_300px] lg:items-start">
 
           {/* Events */}
           <div>
             {events.length === 0 && (
               <>
-                <h2 className="mb-6 text-[32px] font-bold text-foreground">Wydarzenia</h2>
+                <h2 className="mb-6 text-2xl font-bold text-foreground sm:text-[32px]">Wydarzenia</h2>
                 <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-black/10 px-6 py-16 text-center">
                   <CalendarX className="size-8 text-muted-foreground" />
                   <p className="font-semibold text-foreground">Wkrótce</p>
@@ -85,21 +86,21 @@ export function CityPage({ city }: { city: City }) {
 
             {importantGroups.length > 0 && (
               <section className="mb-10">
-                <h2 className="mb-4 text-[32px] font-bold text-foreground">Najważniejsze wydarzenia</h2>
+                <h2 className="mb-4 text-2xl font-bold text-foreground sm:text-[32px]">Najważniejsze wydarzenia</h2>
                 <EventList groups={importantGroups} />
               </section>
             )}
 
             {restGroups.length > 0 && (
               <section>
-                <h2 className="mb-2 text-[32px] font-bold text-foreground">Wydarzenia</h2>
+                <h2 className="mb-2 text-2xl font-bold text-foreground sm:text-[32px]">Wydarzenia</h2>
                 <EventTimeline groups={restGroups} />
               </section>
             )}
           </div>
 
           {/* Sidebar */}
-          <aside className="sticky top-6 pt-[88px]">
+          <aside className="pt-0 lg:sticky lg:top-6 lg:pt-[88px]">
             <div className="flex flex-col gap-3 rounded-2xl bg-card p-5">
               <div className="flex items-center gap-2 font-mono text-xs text-muted-foreground">
                 <MapPinned className="size-3.5" />

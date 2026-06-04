@@ -55,36 +55,36 @@ export function ICalSubscribeButton({ name, type, slug, className, fullWidth }: 
         className={`${fullWidth ? "w-full" : "w-fit"} ${className ?? ""}`}
       >
         <CalendarPlus className="size-4" />
-        Subscribe
+        Subskrybuj
       </Button>
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-md gap-0 overflow-hidden p-0">
-          <div className="px-6 pb-5 pt-6">
+        <DialogContent className="max-h-[calc(100dvh-2rem)] max-w-md gap-0 overflow-y-auto p-0">
+          <div className="px-4 pb-5 pt-6 sm:px-6">
             <div className="mb-4 flex size-11 items-center justify-center rounded-full bg-foreground">
               <CalendarPlus className="size-5 text-background" />
             </div>
             <DialogHeader>
-              <DialogTitle className="text-lg">Add calendar subscription</DialogTitle>
+              <DialogTitle className="text-lg">Dodaj subskrypcję kalendarza</DialogTitle>
               <DialogDescription className="mt-1 text-sm leading-relaxed">
-                Live iCal feed for <span className="font-medium text-foreground">{name}</span>.
+                Aktualny kanał iCal dla <span className="font-medium text-foreground">{name}</span>.
               </DialogDescription>
             </DialogHeader>
           </div>
 
-          <div className="grid gap-2 bg-card px-6 py-4">
+          <div className="grid gap-2 bg-card px-4 py-4 sm:px-6">
             <CalendarAction
               href={webcalUrl}
               icon={<AppleIcon />}
               title="Apple Calendar"
-              subtitle="webcal subscription"
+              subtitle="subskrypcja webcal"
               className="bg-neutral-950 text-white hover:bg-neutral-800"
             />
             <CalendarAction
               href={outlookUrl}
               icon={<OutlookIcon />}
               title="Outlook"
-              subtitle="add from web"
+              subtitle="dodaj z internetu"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0f6cbd] text-white hover:bg-[#0b5cab]"
@@ -94,7 +94,7 @@ export function ICalSubscribeButton({ name, type, slug, className, fullWidth }: 
               href={googleUrl}
               icon={<GoogleIcon />}
               title="Google Calendar"
-              subtitle="add by URL"
+              subtitle="dodaj przez URL"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#2f72cc] text-white hover:bg-[#2864b4]"
@@ -103,14 +103,14 @@ export function ICalSubscribeButton({ name, type, slug, className, fullWidth }: 
             <CalendarAction
               href={downloadUrl}
               icon={<Download className="size-4" />}
-              title="Download .ics"
-              subtitle="single-file import"
+              title="Pobierz .ics"
+              subtitle="import pojedynczego pliku"
               download={`${slug}.ics`}
               className="border border-black/10 bg-background text-foreground hover:bg-card-hover"
             />
           </div>
 
-          <div className="border-t border-black/10 px-6 py-4">
+          <div className="border-t border-black/10 px-4 py-4 sm:px-6">
             <button
               onClick={handleCopy}
               className="flex w-full items-center justify-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -118,12 +118,12 @@ export function ICalSubscribeButton({ name, type, slug, className, fullWidth }: 
               {copied ? (
                 <>
                   <Check className="size-3.5" />
-                  Copied
+                  Skopiowano
                 </>
               ) : (
                 <>
                   <Copy className="size-3.5" />
-                  Copy subscription URL
+                  Kopiuj URL subskrypcji
                 </>
               )}
             </button>

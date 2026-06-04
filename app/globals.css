@@ -148,11 +148,11 @@
     background: var(--background);
     font-size: 15px;
     line-height: 1.55;
+    overflow-x: hidden;
   }
   h1, h2, h3, h4 {
     font-family: var(--font-heading);
     font-weight: 600;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
   }
 }
-

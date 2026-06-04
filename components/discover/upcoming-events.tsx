@@ -75,8 +75,8 @@ const groups: MonthGroup[] = [
 
 export function UpcomingEvents() {
   return (
-    <section className="reveal reveal-3 mt-24">
-      <h2 className="mb-7 text-[32px] text-foreground">Nadchodzące ważne wydarzenia</h2>
+    <section className="reveal reveal-3 mt-16 sm:mt-20 lg:mt-24">
+      <h2 className="mb-5 text-2xl text-foreground sm:mb-7 sm:text-[32px]">Nadchodzące ważne wydarzenia</h2>
       <EventList groups={groups} />
     </section>
   )

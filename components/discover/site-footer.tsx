@@ -16,12 +16,12 @@ export function SiteFooter({ lang = "pl" }: SiteFooterProps) {
   const t = copy[lang]
   return (
     <footer className="mt-20 bg-[#141413]">
-      <div className="mx-auto flex min-h-20 max-w-[1400px] flex-wrap items-center justify-between gap-4 px-10 py-6">
+      <div className="mx-auto flex min-h-20 max-w-[1400px] flex-col items-start justify-between gap-5 px-4 py-6 sm:flex-row sm:items-center sm:gap-4 sm:px-6 lg:px-10">
         <div className="flex items-center gap-[22px]">
           <Asterisk className="size-[18px] text-[#faf9f5]" strokeWidth={2.5} />
         </div>
 
-        <div className="flex items-center gap-3.5 text-[#faf9f5]/60">
+        <div className="flex w-full flex-wrap items-center justify-between gap-3.5 text-[#faf9f5]/60 sm:w-auto sm:justify-start">
           <a
             href={DEVELOPER_URL}
             target="_blank"
